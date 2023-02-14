@@ -1,0 +1,27 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Cypress tests for Pecodesoftware",
+  "main": "index.js",
+  "scripts": {
+    "test": "/Users/evgeniarud/CypressPecode/CypressPecode/cypress/e2e",
+    "e2e": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JendarJen/CypressPecode.git"
+  },
+  "author": "Evgenia Rud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JendarJen/CypressPecode/issues"
+  },
+  "homepage": "https://github.com/JendarJen/CypressPecode#readme",
+  "dependencies": {
+    "cypress": "^11.0.0",
+    "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "@bahmutov/cy-api": "^2.2.1"
+  }
+}
